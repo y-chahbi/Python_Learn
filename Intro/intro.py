@@ -93,3 +93,31 @@ my_function_with_params("youssef")
 my_function_args("one", "two", "three")
 
 """
+
+
+"""      #Type Conversion
+
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+a = float(x)
+b = int(y)
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+"""
+
+"""  # python made life easy with this IN and NOT IN LOOOOL..
+txt = "The best things in life are free!"
+if ("free" in txt):
+  print("Yes, 'free' is present.")
+"""
